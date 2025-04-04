@@ -16,12 +16,20 @@
 # clone the git repos
 ## run the init.sh file to clone the repose
 ```bash
-sudo ./init.sh
+./init.sh
 ```
 
 # build you code
 ## build web-apps
-## build sdkjs
+### install dependence
+`cd build && npm install`
+`npm install -g bower grunt-cli`
+ 
+`bower install`
+`npm install socket.io`
+ 
+### build
+`grunt`
 
 # build the docker image to run your local projects
 ```bash
